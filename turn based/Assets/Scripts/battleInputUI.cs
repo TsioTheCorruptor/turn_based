@@ -6,13 +6,15 @@ using UnityEngine;
 using Unity.Mathematics;
 using Unity.VisualScripting;
 using UnityEditor;
+using UnityEngine.Events;
 //using System.Diagnostics;
 
 public class BattleInputUI : MonoBehaviour
 {
-//private void setupButtons();
-   enum input{up,down,left,right}
-    KeyCode[] inputKeys = { KeyCode.W, KeyCode.S, KeyCode.A, KeyCode.D };
+    //private void setupButtons();
+    public UnityEvent buttonAction;
+    enum input{up,down,left,right,selected}
+    KeyCode[] inputKeys = { KeyCode.W, KeyCode.S, KeyCode.A, KeyCode.D,KeyCode.Space };
    public ListData currentButton;
     List<ListData> currentList;
         Event currentEvent;
@@ -52,7 +54,11 @@ public class BattleInputUI : MonoBehaviour
     void Update()
     {
         manageInputs();
-        
+        if (Input.GetKeyDown(inputKeys[(int)input.selected])) 
+        {
+           
+           
+        }
     }
  void setupButtons()
 {
@@ -84,10 +90,20 @@ public class BattleInputUI : MonoBehaviour
 
         for (int i = 0;i<Mathf.Max(buttonlist1.Count,buttonlist2.Count);i++)
         {
-            if(listindex1<buttonlist1.Count) 
-            currbuttonToLink = buttonlist1[listindex1];
+            if(listindex1<buttonlist1.Count)
+            {
+                currbuttonToLink = buttonlist1[listindex1];
+                currbuttonToLink.rowIndex=listindex1++;
+
+            }
+           
             if (listindex2<buttonlist2.Count)
-            LinkTo= buttonlist2[listindex2];
+            { 
+                LinkTo= buttonlist2[listindex2];
+                LinkTo.rowIndex=listindex2++;
+
+            }
+           
            
  
            
@@ -95,8 +111,8 @@ public class BattleInputUI : MonoBehaviour
                     currbuttonToLink.nextRight = LinkTo;
                 if(LinkTo.prevLeft==null)
                     LinkTo.prevLeft = currbuttonToLink;
-                  currbuttonToLink.rowIndex=listindex1++;
-                  LinkTo.rowIndex=listindex2++;
+                 
+                 
                   currbuttonToLink.listIndex = listindex;
                   LinkTo.listIndex = listindex+1;
 

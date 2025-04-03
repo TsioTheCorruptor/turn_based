@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class ListData : MonoBehaviour
 {
+    
     public ListData nextRight;
     public ListData prevLeft;
     public GameObject data;
