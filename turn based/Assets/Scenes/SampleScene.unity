@@ -1460,6 +1460,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc79266689958f747a899d5f6eda878a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonAction:
+    m_PersistentCalls:
+      m_Calls: []
   currentButton: {fileID: 0}
   buttons:
   - list:
