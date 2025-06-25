@@ -296,12 +296,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7692fee288bfc724992809153cf22060, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextRight: {fileID: 0}
-  prevLeft: {fileID: 0}
-  data: {fileID: 179342971}
-  rowIndex: 0
-  listIndex: 0
-  button: {x: 1, y: 2}
+  m_NextRight: {fileID: 0}
+  m_PrevLeft: {fileID: 0}
+  m_RowIndex: 0
+  m_ListIndex: 0
 --- !u!212 &179342973
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -403,12 +401,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7692fee288bfc724992809153cf22060, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextRight: {fileID: 0}
-  prevLeft: {fileID: 0}
-  data: {fileID: 256016919}
-  rowIndex: 0
-  listIndex: 0
-  button: {x: 1, y: 2}
+  m_NextRight: {fileID: 0}
+  m_PrevLeft: {fileID: 0}
+  m_RowIndex: 0
+  m_ListIndex: 0
 --- !u!212 &256016921
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -602,12 +598,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7692fee288bfc724992809153cf22060, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextRight: {fileID: 0}
-  prevLeft: {fileID: 0}
-  data: {fileID: 606568321}
-  rowIndex: 0
-  listIndex: 0
-  button: {x: 1, y: 2}
+  m_NextRight: {fileID: 0}
+  m_PrevLeft: {fileID: 0}
+  m_RowIndex: 0
+  m_ListIndex: 0
 --- !u!212 &606568323
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -728,12 +722,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7692fee288bfc724992809153cf22060, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextRight: {fileID: 0}
-  prevLeft: {fileID: 0}
-  data: {fileID: 783244331}
-  rowIndex: 0
-  listIndex: 0
-  button: {x: 1, y: 2}
+  m_NextRight: {fileID: 0}
+  m_PrevLeft: {fileID: 0}
+  m_RowIndex: 0
+  m_ListIndex: 0
 --- !u!212 &783244334
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -816,12 +808,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7692fee288bfc724992809153cf22060, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextRight: {fileID: 0}
-  prevLeft: {fileID: 0}
-  data: {fileID: 859369608}
-  rowIndex: 0
-  listIndex: 0
-  button: {x: 1, y: 2}
+  m_NextRight: {fileID: 0}
+  m_PrevLeft: {fileID: 0}
+  m_RowIndex: 0
+  m_ListIndex: 0
 --- !u!212 &859369610
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -994,12 +984,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7692fee288bfc724992809153cf22060, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextRight: {fileID: 0}
-  prevLeft: {fileID: 0}
-  data: {fileID: 1118444120}
-  rowIndex: 0
-  listIndex: 0
-  button: {x: 1, y: 2}
+  m_NextRight: {fileID: 0}
+  m_PrevLeft: {fileID: 0}
+  m_RowIndex: 0
+  m_ListIndex: 0
 --- !u!1 &1260528020
 GameObject:
   m_ObjectHideFlags: 0
@@ -1030,12 +1018,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7692fee288bfc724992809153cf22060, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextRight: {fileID: 0}
-  prevLeft: {fileID: 0}
-  data: {fileID: 1260528020}
-  rowIndex: 0
-  listIndex: 0
-  button: {x: 1, y: 2}
+  m_NextRight: {fileID: 0}
+  m_PrevLeft: {fileID: 0}
+  m_RowIndex: 0
+  m_ListIndex: 0
 --- !u!212 &1260528022
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1137,12 +1123,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7692fee288bfc724992809153cf22060, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextRight: {fileID: 0}
-  prevLeft: {fileID: 0}
-  data: {fileID: 1519209053}
-  rowIndex: 0
-  listIndex: 0
-  button: {x: 1, y: 2}
+  m_NextRight: {fileID: 0}
+  m_PrevLeft: {fileID: 0}
+  m_RowIndex: 0
+  m_ListIndex: 0
 --- !u!212 &1519209055
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1315,12 +1299,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7692fee288bfc724992809153cf22060, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextRight: {fileID: 0}
-  prevLeft: {fileID: 0}
-  data: {fileID: 1581425887}
-  rowIndex: 0
-  listIndex: 0
-  button: {x: 1, y: 2}
+  m_NextRight: {fileID: 0}
+  m_PrevLeft: {fileID: 0}
+  m_RowIndex: 0
+  m_ListIndex: 0
 --- !u!1 &1890103909
 GameObject:
   m_ObjectHideFlags: 0
@@ -1351,12 +1333,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7692fee288bfc724992809153cf22060, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextRight: {fileID: 0}
-  prevLeft: {fileID: 0}
-  data: {fileID: 1890103909}
-  rowIndex: 0
-  listIndex: 0
-  button: {x: 1, y: 2}
+  m_NextRight: {fileID: 0}
+  m_PrevLeft: {fileID: 0}
+  m_RowIndex: 0
+  m_ListIndex: 0
 --- !u!212 &1890103911
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1460,24 +1440,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc79266689958f747a899d5f6eda878a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buttonAction:
-    m_PersistentCalls:
-      m_Calls: []
-  currentButton: {fileID: 0}
-  buttons:
-  - list:
-    - {fileID: 1118444123}
-    - {fileID: 859369609}
-    - {fileID: 1890103910}
-  - list:
-    - {fileID: 1581425890}
-    - {fileID: 1519209054}
-    - {fileID: 256016920}
-    - {fileID: 179342972}
-  - list:
-    - {fileID: 783244333}
-    - {fileID: 1260528021}
-    - {fileID: 606568322}
+  m_CurrentButton: {fileID: 0}
+  m_Buttons:
+  - m_ButtonsInRow: []
+  - m_ButtonsInRow: []
+  - m_ButtonsInRow: []
 --- !u!114 &2060302887
 MonoBehaviour:
   m_ObjectHideFlags: 0
